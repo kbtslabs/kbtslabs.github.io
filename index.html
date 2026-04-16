@@ -1,14 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="RLGcofrly5GuJxAuAfyYXHSe_fTHsqqPBEHUUIoNhHA" />
-    <title>KBTS Labs</title>
+    <title>ST/AV - Avukatlık Staj Takip Uygulaması</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-    <h1>KBTS Labs - Uygulama Destek Sayfası</h1>
-    
+<body>
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
+    <header class="glass-header">
+        <div class="container nav-container">
+            <a href="#" class="logo-wrapper">
+                <img src="image/storeLogo_512x512.png" alt="ST/AV Logo" class="logo-img">
+                <span class="logo-text">ST/AV</span>
+            </a>
+            <div class="menu-toggle"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+            <nav class="nav-links">
+                <a href="#features">Özellikler</a>
+                <a href="#how-it-works">Nasıl Çalışır</a>
+                <a href="#download" class="btn-primary-small">İndir</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section container">
+            <div class="hero-content animate-on-scroll">
+                <h1>Avukatlık Staj<br><span class="text-gradient">Takibi: ST/AV</span></h1>
+                <p>Staj sürecinizi uçtan uca takip edin, bilgi bankasından mesleki içeriklere ulaşın ve ihtiyaç
+                    duyduğunuz dilekçe örneklerini anında indirin.</p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn-primary">Hemen İndir</a>
+                    <a href="#features" class="btn-secondary">Daha Fazla Bilgi</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper animate-on-scroll delay-1">
+                <img src="image/mockup.png" alt="ST/AV App Mockup" class="hero-mockup">
+            </div>
+        </section>
+
+        <section id="features" class="features-section container animate-on-scroll">
+            <div class="section-title">
+                <h2>Öne Çıkan Özellikler</h2>
+                <p>ST/AV, stajyer avukatların kariyer yolculuklarını kolaylaştırmak için tamamen bu sürece özel
+                    tasarlandı.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card glass-panel">
+                    <div class="icon-circle">
+                        <i>📅</i>
+                    </div>
+                    <h3>Süreç Takibi ve Bildirim</h3>
+                    <p>Staj sürecinizin her anını takip edin. Süreniz dolmadan bir gün önce alacağınız bildirimle hiçbir
+                        resmi işlemi atlamayın.</p>
+                </div>
+                <div class="feature-card glass-panel">
+                    <div class="icon-circle">
+                        <i>📚</i>
+                    </div>
+                    <h3>Kapsamlı Bilgi Bankası</h3>
+                    <p>Staj ve avukatlık mesleğinin incelikleriyle ilgili yüzlerce içeriğe kolayca göz atarak mesleki
+                        gelişiminize hız katın.</p>
+                </div>
+                <div class="feature-card glass-panel">
+                    <div class="icon-circle">
+                        <i>📄</i>
+                    </div>
+                    <h3>Dilekçe Örnekleri</h3>
+                    <p>Adliye ve resmi kurumlarda ihtiyaç duyabileceğiniz en güncel ve profesyonel dilekçe şablonlarını
+                        doğrudan cihazınıza indirin.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="highlight-section container animate-on-scroll">
+            <div class="glass-panel highlight-panel">
+                <div class="highlight-text">
+                    <h2>Staj Sürecinde Dijital Asistanınız</h2>
+                    <p>Karmaşık prosedürler arasında kaybolmaya son. ST/AV, ihtiyaç duyduğunuz tüm araçları sezgisel ve
+                        basit bir arayüzle sunar.</p>
+                    <ul class="check-list">
+                        <li><span>✔</span> Otomatik Bitiş Bildirimi</li>
+                        <li><span>✔</span> Güncel Hukuki Bilgi Bankası</li>
+                        <li><span>✔</span> Zengin ve İndirilebilir Dilekçe Şablonları</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="cta-section container animate-on-scroll">
+            <h2>ST/AV'ı Bugün İndirin</h2>
+            <p>Stajyer avukatlar için geliştirilmiş yol arkadaşınızla hemen tanışın.</p>
+            <div class="store-buttons">
+                <!-- <button class="store-btn glass-panel">
+                    <div class="store-icon">🍎</div>
+                    <div class="store-text">
+                        <span>App Store'dan</span>
+                        <strong>İndirin</strong>
+                    </div>
+                </button> -->
+                <a href="https://play.google.com/store/apps/details?id=com.enssyyss.stav" target="_blank"
+                    rel="noopener noreferrer" class="store-btn glass-panel" style="text-decoration: none;">
+                    <div class="store-icon">▶️</div>
+                    <div class="store-text">
+                        <span>Google Play'den</span>
+                        <strong>Edinin</strong>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <a href="index.html" class="logo-wrapper">
+                    <img src="image/storeLogo_512x512.png" alt="ST/AV Logo" class="logo-img">
+                    <span class="logo-text">ST/AV</span>
+                </a>
+                <p>Avukatlık staj yolculuğunuzda en güvenilir dijital asistanınız.</p>
+            </div>
+            <div class="footer-links">
+                <a href="gizlilik.html">Gizlilik Politikası</a>
+                <a href="kosullar.html">Kullanım Koşulları</a>
+                <a href="iletisim.html">İletişim</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ST/AV. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

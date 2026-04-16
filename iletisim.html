@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - ST/AV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
+    <header class="glass-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo-wrapper">
+                <img src="image/storeLogo_512x512.png" alt="ST/AV Logo" class="logo-img">
+                <span class="logo-text">ST/AV</span>
+            </a>
+            <div class="menu-toggle"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+            <nav class="nav-links">
+                <a href="index.html#features">Özellikler</a>
+                <a href="index.html#how-it-works">Nasıl Çalışır</a>
+                <a href="index.html#download" class="btn-primary-small">İndir</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header container animate-on-scroll">
+            <h1><span class="text-gradient">İletişim</span></h1>
+            <p style="color: var(--color-text-muted); font-size: 1.2rem; margin-top: 15px;">Bizimle iletişime geçmek için aşağıdaki formu doldurabilirsiniz.</p>
+        </section>
+
+        <section class="container animate-on-scroll delay-1">
+            <div class="glass-panel content-panel" style="text-align: center;">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Adınız Soyadınız</label>
+                        <input type="text" id="name" class="form-control" placeholder="Adınız Soyadınız">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-posta Adresiniz</label>
+                        <input type="email" id="email" class="form-control" placeholder="ornek@mail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Konu</label>
+                        <input type="text" id="subject" class="form-control" placeholder="Mesajınızın Konusu">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mesajınız</label>
+                        <textarea id="message" class="form-control" placeholder="Bize ne söylemek istersiniz?"></textarea>
+                    </div>
+                    <button type="button" class="btn-primary" style="margin-top: 10px; width: 100%;">Gönder</button>
+                </form>
+                
+                <div style="margin-top: 50px; color: var(--color-text-muted);">
+                    <p><strong>E-posta:</strong> destek@stav-app.com</p>
+                    <p><strong>Adres:</strong> Hukuk Plaza, Adalet Mahallesi No:1, İstanbul / Türkiye</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <a href="index.html" class="logo-wrapper">
+                    <img src="image/storeLogo_512x512.png" alt="ST/AV Logo" class="logo-img">
+                    <span class="logo-text">ST/AV</span>
+                </a>
+                <p>Avukatlık staj yolculuğunuzda en güvenilir dijital asistanınız.</p>
+            </div>
+            <div class="footer-links">
+                <a href="gizlilik.html">Gizlilik Politikası</a>
+                <a href="kosullar.html">Kullanım Koşulları</a>
+                <a href="iletisim.html">İletişim</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ST/AV. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
