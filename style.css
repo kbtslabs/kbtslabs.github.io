@@ -647,3 +647,69 @@ textarea.form-control {
     resize: vertical;
     min-height: 120px;
 }
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+    /* Texts */
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .section-title h2, 
+    .highlight-text h2,
+    .cta-section h2,
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    
+    /* Buttons */
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+    }
+    
+    .btn-primary, 
+    .btn-secondary {
+        width: 100%;
+        text-align: center;
+        padding: 14px 20px;
+        font-size: 1rem;
+    }
+
+    /* Padding adjustments for mobile */
+    .hero-section {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+    
+    .features-section,
+    .highlight-section,
+    .cta-section {
+        padding: 60px 16px;
+    }
+    
+    .feature-card {
+        padding: 25px;
+    }
+    
+    .highlight-panel {
+        padding: 30px 16px;
+    }
+    
+    /* Store buttons */
+    .store-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .store-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
